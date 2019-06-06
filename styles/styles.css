@@ -13,6 +13,25 @@
   color: white !important; 
 }
 
+.primary-color {
+  color: #313591 !important;
+}
+
+.secondary-color {
+  color: #f26422 !important;
+}
+
+*:focus {
+  outline: #f26422 auto 2px;
+  outline-color: #f26422;
+  outline-style: double;
+  outline-width: 2px;
+}
+
+.w3-hover-text-green:hover {
+  color: #313591!important;
+}
+
 .flex {
   display: flex;
   justify-content: center;

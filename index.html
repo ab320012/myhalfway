@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
   <title>Halfway House Management</title>
+  <meta name=”description” content="Halfway House Management" />
+  <meta property=”og:title” content="Halfway House Management" />
+  <meta property=”og:description” content="Automated Halfway House Management"/>
+  <meta property=”og:url” content="https://www.myhalfway.com/" />
+  <meta property=”og:image” content="https://www.myhalfway.com/assets/favicon.png" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link rel="stylesheet" href="styles/styles.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link rel="icon" type="image/png" href="assets/favicon.ico">
   <meta name="theme-color" content="#313591" />
   <link
     rel="stylesheet"
@@ -38,7 +44,7 @@
     <!-- Header -->
     <header class="w3-panel w3-center">
       <img src="assets/logo.png" style="width:300px; height: 100px" />
-      <h1 class="w3-xlarge">Automated Halfway House Management</h1>
+      <h1 class="w3-xlarge secondary-color">Automated Halfway House Management</h1>
 
       <div class="w3-padding-16">
         <div class="w3-bar">
@@ -58,7 +64,7 @@
         <div class="w3-display-container w3-hide-small w3-hide-medium">
           <img src="assets/banner.jpg" style="width:100%; opacity: 0.9" />
           <div class="w3-center image-content w3-container">
-            <h2>Already a client?</h2>
+            <h2 class="secondary-color">Already a client?</h2>
             <p>
               We will help you figure it out. Have a look at our best
               rehabilitation centers here.
@@ -77,7 +83,7 @@
 
       <div class="w3-row w3-container" id="about">
         <div class="w3-center w3-padding-64">
-          <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"
+          <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16 primary-color"
             >What We Offer</span
           >
         </div>
@@ -112,7 +118,7 @@
 
       <div class="w3-row-padding" id="clients">
         <div class="w3-center w3-padding-64">
-          <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"
+          <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16 primary-color"
             >Featured Clients</span
           >
         </div>
@@ -121,15 +127,10 @@
           <div class="w3-hover-shadow w3-border">
             <img src="assets/client-1.jpg" alt="John" style="width:100%" />
             <div class="w3-container">
-              <h3>Artesian House</h3>
-              <p class="w3-opacity">Florida</p>
+              <h3 class="primary-color">Artesian House</h3>
+              <p class="secondary-color">Florida</p>
               <p>
                 100 bed facility
-              </p>
-              <p>
-                <button class="w3-button w3-halfway-blue w3-block">
-                  Contact
-                </button>
               </p>
             </div>
           </div>
@@ -139,15 +140,10 @@
           <div class="w3-hover-shadow w3-border">
             <img src="assets/client-2.jpg" alt="Mike" style="width:100%" />
             <div class="w3-container">
-              <h3>Gift House</h3>
-              <p class="w3-opacity">Florida</p>
+              <h3 class="primary-color">Gift House</h3>
+              <p class="secondary-color">Florida</p>
               <p>
                 30 bed facility
-              </p>
-              <p>
-                <button class="w3-button w3-halfway-blue w3-block">
-                  Contact
-                </button>
               </p>
             </div>
           </div>
@@ -157,7 +153,7 @@
 
       <div class="w3-row-padding" id="plans">
         <div class="w3-center w3-padding-64">
-          <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"
+          <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16 primary-color"
             >Pricing Plans</span
           >
         </div>
@@ -169,12 +165,7 @@
               <li class="w3-padding-16"><b></b>All Features </li>
 
               <li class="w3-padding-16">
-                <h2 class="w3-wide">Free</h2>
-              </li>
-              <li class="w3-light-grey w3-padding-24">
-                <button class="w3-button w3-halfway-blue w3-padding-large">
-                  Sign Up
-                </button>
+                <h2 class="w3-wide primary-color">Free</h2>
               </li>
             </ul>
           </div>
@@ -186,13 +177,8 @@
               <li class="w3-padding-16"><b></b> All Features</li>
 
               <li class="w3-padding-16">
-                <h2 class="w3-wide">$ 5</h2>
-                <span class="w3-opacity">per client per month</span>
-              </li>
-              <li class="w3-light-grey w3-padding-24">
-                <button class="w3-button w3-halfway-blue w3-padding-large">
-                  Sign Up
-                </button>
+                <h2 class="w3-wide primary-color">$ 5</h2>
+                <span class="secondary-color">per client per month</span>
               </li>
             </ul>
           </div>
@@ -201,7 +187,7 @@
 
       <!-- Contact -->
       <div class="w3-center w3-padding-32 w3-margin-top" id="contact">
-        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"
+        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16 primary-color"
           >Contact Us</span
         >
       </div>
@@ -210,7 +196,7 @@
         <form action="https://formspree.io/alex.baranov@gaiasystemsinc.com" method="POST" class="w3-container" target="_blank">
 
           <div class="w3-section">
-            <label>Email</label>
+            <label class="primary-color">Email</label>
             <input
               class="w3-input w3-border w3-hover-border-black"
               style="width:100%;"
@@ -221,7 +207,7 @@
           </div>
 
           <div class="w3-section">
-            <label>Message</label>
+            <label class="primary-color">Message</label>
             <textarea
               type='textarea'
               class="w3-input w3-border w3-hover-border-black"
@@ -249,7 +235,7 @@
           href="https://gaiasystemsinc.com"
           title="Gaia Systems Inc."
           target="_blank"
-          class="w3-hover-text-green"
+          class="w3-hover-text-green secondary-color"
           >Gaia Systems Inc.</a
         >
       </p>
